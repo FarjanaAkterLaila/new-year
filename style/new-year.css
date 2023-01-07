@@ -6,9 +6,8 @@
 /* header and banner style */
 .header {
     background-image: url("../images/banner/banner3.png");
-    height: 818px;
+    height: 819px;
     width: 100%;
-
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

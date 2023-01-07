@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans';
+}
+.header{
+    background-image: url('/images/banner/banner3.png');
+    height: 800px;
+    width: 100%;
+  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}  
+  .banner{
+    padding-top: 216px;
+    margin-right: 230px;
+    text-align: right;
+}  
+.banner-title{
+    font-weight: 700;
+font-size: 65px;
+color: #FFFFFF;
+}
+.banner-sub-title{
+    margin-top: 24px;
+    font-weight: 400;
+font-size: 16px;
+color: #FFFFFF;
+}
+.btn-primary{
+    margin-top: 22px;
+    color:  #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+    padding: 15px 20px;
+    height: 64px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+.left{
+    padding-top: 130px;
+    width: 500px;
+    height: 600px;
+    margin-left: 12px;
+    border-radius: 5px;
+    padding-left: 216px;
+    
+}
+.section{
+    display: flex;
+    
+}
+.sub-section{
+    padding-top: 370px;
+    padding-left: 87px;
+}
+.section-title{
+    font-weight: 700;
+font-size: 40px;
+color: #151414;
+margin-bottom: 24px;
+}
+.sub-title{
+    font-weight: 400;
+font-size: 16px;
+color: #444343;
+}
+p i{
+   color:  #16D887;
+   margin-right:10px ;
+}
+.plan-title{
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 35px;
+}
+.plans-container {
+    display: flex;
+    gap: 24px;
+    
+}
+.plan {
+    align-items: center;
+    padding-left: 210px;
+    text-align: center;
+}
+.title{
+    font-weight: 700;
+font-size: 40px;
+color: #151414;
+text-align: center;
+padding-left: 275px;
+margin-bottom: 75px;
+}
+.plan-title {
+    font-weight: 700;
+font-size: 24px;
+color: #151414;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    left: 50px;
+   
+   text-align: center;
+
+}
+.size{
+    background-position: center;
+    
+}
+.plan-description {
+    font-weight: 500;
+    font-size: 20px;
+    color: #737272;
+    text-align:center;
+}
+.mindset{
+    padding-left: 160px;
+    padding-top: 130px;
+   padding-bottom: 220px;
+}
+.mind{
+    background-image:
+    /* linear-gradient(to left, #005FAC, rgba(0, 95, 172, 0)),
+    url('/images/watch.png'); */
+    linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url('/images/watch.png');
+    width: 1334px;
+    height: 300px;
+    background-size: cover;
+    color: white;
+     padding: 20px; 
+    display: block;
+    border-radius: 8px;
+    
+}
+.mind-title{
+    padding-left: 64px;
+    padding-top: 60px;
+}
+.mind-sub-title{
+    font-weight: 700;
+font-size: 40px;
+
+}
+.future{
+    background-color: #151414;
+    padding-top: 130px;
+    padding-left: 230px;
+    display: flex;
+    gap: 100px;
+    padding-bottom: 10px;
+}
+.future-title{
+    font-weight: 700;
+font-size: 45px;
+color: #F8F8F8;
+}
+.future-sub-title{
+   margin-top: 16px;
+    font-weight: 400;
+font-size: 16px;
+color: #FFFFFF;
+}
+.Email{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+.future .sub-right{
+    text-align: left;
+    padding-left: 133px;
+}
+.sub{
+    font-weight: 600;
+font-size: 25px;
+
+
+color: #FFFFFF;
+}
+.future input[type="email"]{
+    margin-top: 30px;
+    margin-bottom: 16px;
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+    width: 100%;
+    padding:20px 50px ;
+    background-color: #151414;
+
+}
+.btn-p{
+
+    padding:10px 30px ;
+text-align: center;
+background: #005FAC;
+border-radius: 8px;
+font-size: 18px;
+color: #FFFFFF;
+border: 1px solid #005FAC;
+}
+
+.future a{
+    
+        text-decoration: none;
+
+}

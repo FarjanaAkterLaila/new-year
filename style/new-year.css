@@ -3,7 +3,7 @@
     font-family: 'Work Sans';
 }
 .header{
-    background-image: url('/images/banner/banner3.png');
+    background-image: url('./images/banner/banner3.png');
     height: 800px;
     width: 100%;
   
@@ -125,7 +125,7 @@ color: #151414;
     background-image:
     /* linear-gradient(to left, #005FAC, rgba(0, 95, 172, 0)),
     url('/images/watch.png'); */
-    linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url('/images/watch.png');
+    linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url('./images/watch.png');
     width: 1334px;
     height: 300px;
     background-size: cover;
@@ -150,7 +150,7 @@ font-size: 40px;
     padding-left: 230px;
     display: flex;
     gap: 100px;
-    padding-bottom: 10px;
+    padding-bottom: 150px;
 }
 .future-title{
     font-weight: 700;

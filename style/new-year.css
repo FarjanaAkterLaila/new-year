@@ -1,37 +1,42 @@
-*{
+* {
     margin: 0;
     font-family: 'Work Sans';
 }
+
 /* header and banner style */
-.header{
+.header {
     background-image: url("../images/banner/banner3.png");
-    height: 800px;
+    height: 818px;
     width: 100%;
-  
+
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    
-}  
-  .banner{
+
+}
+
+.banner {
     padding-top: 216px;
     margin-right: 230px;
     text-align: right;
-}  
-.banner-title{
-    font-weight: 700;
-font-size: 65px;
-color: #FFFFFF;
 }
-.banner-sub-title{
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+}
+
+.banner-sub-title {
     margin-top: 24px;
     font-weight: 400;
-font-size: 16px;
-color: #FFFFFF;
+    font-size: 16px;
+    color: #FFFFFF;
 }
-.btn-primary{
+
+.btn-primary {
     margin-top: 22px;
-    color:  #005FAC;
+    color: #005FAC;
     font-weight: 600;
     font-size: 20px;
     border: 0;
@@ -42,40 +47,46 @@ color: #FFFFFF;
 }
 
 /* plan and section style */
-.left{
+.left {
     padding-top: 130px;
     width: 500px;
     height: 600px;
     margin-left: 12px;
     border-radius: 5px;
     padding-left: 216px;
-    
+
 }
-.section{
+
+.section {
     display: flex;
-    
+
 }
-.sub-section{
+
+.sub-section {
     padding-top: 280px;
     padding-left: 87px;
 }
-.section-title{
+
+.section-title {
     font-weight: 700;
-font-size: 40px;
-color: #151414;
-margin-bottom: 24px;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
 }
-.sub-title{
+
+.sub-title {
     font-weight: 400;
-font-size: 16px;
-color: #444343;
+    font-size: 16px;
+    color: #444343;
 }
-.section2{
+
+.section2 {
     display: flex;
     padding-left: 87px;
     padding-bottom: 130px;
 }
-.right{
+
+.right {
     padding-top: 130px;
     width: 600px;
     height: 600px;
@@ -83,85 +94,97 @@ color: #444343;
     border-radius: 5px;
     padding-left: 250px;
 }
-p i{
-   color:  #16D887;
-   margin-right:10px ;
+
+p i {
+    color: #16D887;
+    margin-right: 10px;
 }
-.plan-title{
+
+.plan-title {
     text-align: center;
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 35px;
 }
+
 .plans-container {
     display: flex;
     gap: 24px;
-    
+
 }
+
 .plan {
     align-items: center;
     padding-left: 210px;
     text-align: center;
 }
-.title{
+
+.title {
     font-weight: 700;
-font-size: 40px;
-color: #151414;
-text-align: center;
-padding-left: 275px;
-margin-bottom: 75px;
+    font-size: 40px;
+    color: #151414;
+    text-align: center;
+    padding-left: 275px;
+    margin-bottom: 75px;
 }
+
 .plan-title {
     font-weight: 700;
-font-size: 24px;
-color: #151414;
+    font-size: 24px;
+    color: #151414;
     margin-top: 30px;
     margin-bottom: 10px;
     left: 50px;
-   
-   text-align: center;
+
+    text-align: center;
 
 }
-.size{
+
+.size {
     background-position: center;
-    
+
 }
+
 .plan-description {
     font-weight: 500;
     font-size: 20px;
     color: #737272;
-    text-align:center;
+    text-align: center;
 }
 
 /* image gradient style */
-.mindset{
+.mindset {
     padding-left: 160px;
     padding-top: 130px;
-   padding-bottom: 220px;
+    padding-bottom: 220px;
 }
-.mind{
+
+.mind {
     background-image:
-    linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url('../images/watch.png');
+        linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url('../images/watch.png');
     width: 1334px;
     height: 300px;
     background-size: cover;
     color: white;
-     padding: 20px; 
+    padding: 20px;
     display: block;
     border-radius: 8px;
-    
+
 }
-.mind-title{
+
+.mind-title {
     padding-left: 64px;
     padding-top: 60px;
 }
-.mind-sub-title{
+
+.mind-sub-title {
     font-weight: 700;
-font-size: 40px;
+    font-size: 40px;
 
 }
+
 /* future style */
-.future{
+.future {
     background-color: #151414;
     padding-top: 130px;
     padding-left: 230px;
@@ -169,63 +192,69 @@ font-size: 40px;
     gap: 100px;
     padding-bottom: 150px;
 }
-.future-title{
+
+.future-title {
     font-weight: 700;
-font-size: 45px;
-color: #F8F8F8;
+    font-size: 45px;
+    color: #F8F8F8;
 }
-.future-sub-title{
-   margin-top: 16px;
+
+.future-sub-title {
+    margin-top: 16px;
     font-weight: 400;
-font-size: 16px;
-color: #FFFFFF;
+    font-size: 16px;
+    color: #FFFFFF;
 }
-.Email{
+
+.Email {
     font-weight: 400;
     font-size: 16px;
     color: #FFFFFF;
     margin-top: 18px;
     margin-bottom: 10px;
 }
-.future .sub-right{
+
+.future .sub-right {
     text-align: left;
     padding-left: 133px;
 }
-.sub{
+
+.sub {
     font-weight: 600;
-font-size: 25px;
+    font-size: 25px;
 
 
-color: #FFFFFF;
+    color: #FFFFFF;
 }
-.future input[type="email"]{
+
+.future input[type="email"] {
     margin-top: 30px;
     margin-bottom: 16px;
     border: 2px solid #FFFFFF;
     border-radius: 8px;
     width: 100%;
-    padding:20px 40px ;
-     background-color: #151414; 
+    padding: 20px 40px;
+    background-color: #151414;
     font-weight: 400;
-font-size: 18px;
-color: #F3F3F3;
+    font-size: 18px;
+    color: #F3F3F3;
 
 }
 
-.btn-p{
+.btn-p {
 
-    padding:15px 30px ;
-text-align: center;
-background: #005FAC;
-border-radius: 8px;
-font-weight: 600;
-font-size: 20px;
-color: #FFFFFF;
-border: 1px solid #005FAC;
+    padding: 15px 30px;
+    text-align: center;
+    background: #005FAC;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: 1px solid #005FAC;
 }
 
-.future a{
-    
-        text-decoration: none;
+.future a {
+
+    text-decoration: none;
 
 }
